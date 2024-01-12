@@ -8,7 +8,7 @@ async function subscribeToPushService() {
     const pushSubscription = await swReg.pushManager.subscribe({
       userVisibleOnly: true,
       applicationServerKey:
-        "BCp-kQUClPamzffhN9BFw9D1KeXy29yarMVOIbMTIp4ll8PAVyUEduzRqZuV1eCbNid5wXC6Sjw10RMy1qsHgfI",
+        "BB_UyAD-r2mmFBATNx_5D9yIDwq4QFcRxxah3eDky7270f2ZrW62XBBZ_Es_ma4idues55uzNN4G-tzjbNjsnuQ",
     });
     console.log(pushSubscription);
     new Notification("Első üzenet");
